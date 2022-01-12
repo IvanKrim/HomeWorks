@@ -1,2 +1,2 @@
 # HomeWorks
-This is the repository contains all my HomeWorks from course by SwiftBook
+The repository contains all my swiftbook course homework’s 
