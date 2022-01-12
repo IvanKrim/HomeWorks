@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1EA922270ECFFD0062EC32 /* Cinema.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1EA921270ECFFD0062EC32 /* Cinema.swift */; };
+		FC6DE6E027109D87001F5445 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DE6DF27109D87001F5445 /* NetworkManager.swift */; };
+		FC6DE6E32710A439001F5445 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6DE6E22710A439001F5445 /* ApiManager.swift */; };
+		FC6E444A27173A2B00BCEB7B /* MusicAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6E444927173A2B00BCEB7B /* MusicAlbum.swift */; };
+		FCA2186A270DDC3E00DEBA20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA21869270DDC3E00DEBA20 /* AppDelegate.swift */; };
+		FCA2186C270DDC3E00DEBA20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2186B270DDC3E00DEBA20 /* SceneDelegate.swift */; };
+		FCA2186E270DDC3E00DEBA20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2186D270DDC3E00DEBA20 /* MainViewController.swift */; };
+		FCA21871270DDC3E00DEBA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA2186F270DDC3E00DEBA20 /* Main.storyboard */; };
+		FCA21873270DDC4100DEBA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA21872270DDC4100DEBA20 /* Assets.xcassets */; };
+		FCA21876270DDC4100DEBA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA21874270DDC4100DEBA20 /* LaunchScreen.storyboard */; };
+		FCA21888270DE10400DEBA20 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA21887270DE10400DEBA20 /* SecondViewController.swift */; };
+		FCC8DA42271B5FEA00210FF5 /* MusicAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8DA41271B5FEA00210FF5 /* MusicAlbumViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC1EA921270ECFFD0062EC32 /* Cinema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cinema.swift; sourceTree = "<group>"; };
+		FC6DE6DF27109D87001F5445 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FC6DE6E22710A439001F5445 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		FC6E444927173A2B00BCEB7B /* MusicAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbum.swift; sourceTree = "<group>"; };
+		FCA21866270DDC3E00DEBA20 /* UIKit-RandomCinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-RandomCinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA21869270DDC3E00DEBA20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCA2186B270DDC3E00DEBA20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCA2186D270DDC3E00DEBA20 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FCA21870270DDC3E00DEBA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCA21872270DDC4100DEBA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCA21875270DDC4100DEBA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCA21877270DDC4100DEBA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA21887270DE10400DEBA20 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FCC8DA41271B5FEA00210FF5 /* MusicAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCA21863270DDC3E00DEBA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1EA923270ED0050062EC32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC1EA921270ECFFD0062EC32 /* Cinema.swift */,
+				FC6E444927173A2B00BCEB7B /* MusicAlbum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC6DE6E127109D91001F5445 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DE6DF27109D87001F5445 /* NetworkManager.swift */,
+				FC6DE6E22710A439001F5445 /* ApiManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FCA2185D270DDC3E00DEBA20 = {
+			isa = PBXGroup;
+			children = (
+				FCA21868270DDC3E00DEBA20 /* UIKit-Randomium */,
+				FCA21867270DDC3E00DEBA20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA21867270DDC3E00DEBA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCA21866270DDC3E00DEBA20 /* UIKit-RandomCinema.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCA21868270DDC3E00DEBA20 /* UIKit-Randomium */ = {
+			isa = PBXGroup;
+			children = (
+				FC1EA923270ED0050062EC32 /* Models */,
+				FC6DE6E127109D91001F5445 /* Managers */,
+				FCA21882270DDCC000DEBA20 /* ViewControllers */,
+				FCA2187F270DDC7D00DEBA20 /* Storyboards */,
+				FCA21880270DDC9900DEBA20 /* Supporting */,
+				FCA21881270DDCAD00DEBA20 /* Resources */,
+			);
+			path = "UIKit-Randomium";
+			sourceTree = "<group>";
+		};
+		FCA2187F270DDC7D00DEBA20 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2186F270DDC3E00DEBA20 /* Main.storyboard */,
+				FCA21874270DDC4100DEBA20 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FCA21880270DDC9900DEBA20 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FCA21869270DDC3E00DEBA20 /* AppDelegate.swift */,
+				FCA2186B270DDC3E00DEBA20 /* SceneDelegate.swift */,
+				FCA21877270DDC4100DEBA20 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FCA21881270DDCAD00DEBA20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCA21872270DDC4100DEBA20 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCA21882270DDCC000DEBA20 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2186D270DDC3E00DEBA20 /* MainViewController.swift */,
+				FCA21887270DE10400DEBA20 /* SecondViewController.swift */,
+				FCC8DA41271B5FEA00210FF5 /* MusicAlbumViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCA21865270DDC3E00DEBA20 /* UIKit-RandomCinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCA2187A270DDC4100DEBA20 /* Build configuration list for PBXNativeTarget "UIKit-RandomCinema" */;
+			buildPhases = (
+				FCA21862270DDC3E00DEBA20 /* Sources */,
+				FCA21863270DDC3E00DEBA20 /* Frameworks */,
+				FCA21864270DDC3E00DEBA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIKit-RandomCinema";
+			productName = "UIKit-RandomCinema";
+			productReference = FCA21866270DDC3E00DEBA20 /* UIKit-RandomCinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCA2185E270DDC3E00DEBA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FCA21865270DDC3E00DEBA20 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FCA21861270DDC3E00DEBA20 /* Build configuration list for PBXProject "UIKit-Randomium" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCA2185D270DDC3E00DEBA20;
+			productRefGroup = FCA21867270DDC3E00DEBA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCA21865270DDC3E00DEBA20 /* UIKit-RandomCinema */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCA21864270DDC3E00DEBA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA21876270DDC4100DEBA20 /* LaunchScreen.storyboard in Resources */,
+				FCA21873270DDC4100DEBA20 /* Assets.xcassets in Resources */,
+				FCA21871270DDC3E00DEBA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCA21862270DDC3E00DEBA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DE6E027109D87001F5445 /* NetworkManager.swift in Sources */,
+				FCA21888270DE10400DEBA20 /* SecondViewController.swift in Sources */,
+				FCA2186E270DDC3E00DEBA20 /* MainViewController.swift in Sources */,
+				FC6DE6E32710A439001F5445 /* ApiManager.swift in Sources */,
+				FCA2186A270DDC3E00DEBA20 /* AppDelegate.swift in Sources */,
+				FC6E444A27173A2B00BCEB7B /* MusicAlbum.swift in Sources */,
+				FCC8DA42271B5FEA00210FF5 /* MusicAlbumViewController.swift in Sources */,
+				FCA2186C270DDC3E00DEBA20 /* SceneDelegate.swift in Sources */,
+				FC1EA922270ECFFD0062EC32 /* Cinema.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCA2186F270DDC3E00DEBA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA21870270DDC3E00DEBA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCA21874270DDC4100DEBA20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCA21875270DDC4100DEBA20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCA21878270DDC4100DEBA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCA21879270DDC4100DEBA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCA2187B270DDC4100DEBA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3S8MU2XD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIKit-Randomium/supporting/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UIKit-RandomContent";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KrimTeam.UIKit-RandomCinema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCA2187C270DDC4100DEBA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3S8MU2XD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UIKit-Randomium/supporting/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UIKit-RandomContent";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KrimTeam.UIKit-RandomCinema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCA21861270DDC3E00DEBA20 /* Build configuration list for PBXProject "UIKit-Randomium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA21878270DDC4100DEBA20 /* Debug */,
+				FCA21879270DDC4100DEBA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCA2187A270DDC4100DEBA20 /* Build configuration list for PBXNativeTarget "UIKit-RandomCinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCA2187B270DDC4100DEBA20 /* Debug */,
+				FCA2187C270DDC4100DEBA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCA2185E270DDC3E00DEBA20 /* Project object */;
+}
